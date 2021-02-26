@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'header';
+
+div button {
+  background-color: $primaryBtn;
+}
+
+.contact {
+  @include flexcenter(row, blue);
+}
